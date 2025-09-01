@@ -1,12 +1,9 @@
+import React from "react";
+import TodoApp from "./components/TodoApp";
 
 
-import './App.css'
-import Todo from './components/Todo.jsx'
 
-function App() {
-   return <Todo />;
+
+export default function App() {
+  return <TodoApp />;
 }
-
-
-
-export default App

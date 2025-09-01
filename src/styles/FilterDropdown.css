@@ -1,0 +1,57 @@
+
+.filter-btn {
+  padding: 18px 20px;
+  width:max-content;
+  border: none;
+  background: #00a8cc;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  outline: none;
+}
+
+.filter-btn:hover {
+  background: #0086a3;
+}
+
+.filter-btn:focus {
+  outline: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  color: #00a8cc;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #00a8cc;
+  border-radius: 10px;
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  width: 150px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 10; /* keeps it above other elements */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #f0faff;
+}

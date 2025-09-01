@@ -1,0 +1,20 @@
+.todo-list {
+  list-style: none;
+  padding: 15px;
+  
+  margin: 0;
+  align-items: center;
+}
+
+.no-task {
+  text-align: center;
+  color: #777;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 4px;        
+}

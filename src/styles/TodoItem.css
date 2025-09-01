@@ -1,0 +1,54 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item:hover {
+  background: #f9f9f9;
+}
+
+.todo-item span {
+  flex: 1;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item:hover .delete-btn {
+  opacity: 1;             
+}
+
+
+.todo-item input[type="checkbox"] {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 4px;        
+}
+.delete-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff4d4f;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;             
+  transition: opacity 0.2s;
+  outline: none;
+}
+
+.delete-btn:hover {
+  color: #ff7875;
+}
+
+.delete-btn:focus {
+  outline: none;
+}

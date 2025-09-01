@@ -1,0 +1,53 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid #00a8cc;
+  border-radius: 8px;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.cancel {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.btn.add {
+  background: #00a8cc;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
