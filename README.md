@@ -2,13 +2,14 @@
 **React To-Do list App**
 
 
-This is a simple yet powerful To-Do List application developed with React, HTML5, and CSS3. The app showcases best practices in React by breaking down logic into reusable components, utilising hooks for state management, and persisting data with local storage. Additionally, it includes features such as filtering and search functionality.
+This is a simple yet powerful To-Do List application developed with React, JSX, and CSS3. The app showcases best practices in React by breaking down logic into reusable components, utilising hooks for state management, and persisting data with local storage. Additionally, it includes features such as filtering and search functionality.
 
 **Tech Stack**
 
 `React,
 Vite(Bundler),
-HTML5/CSS3, 
+JSX,
+CSS,
 Local storage`
 
 **Installation & Setup**
