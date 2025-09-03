@@ -12,7 +12,7 @@ export default function TodoApp() {
     const saved = localStorage.getItem("tasks");
     return saved ? JSON.parse(saved) : [];
   });
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("ALL");
   const [search, setSearch] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
 

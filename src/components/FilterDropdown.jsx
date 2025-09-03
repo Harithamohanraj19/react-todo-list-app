@@ -6,9 +6,9 @@ export default function FilterDropdown({ filter, setFilter }) {
     <div className="dropdown">
       <button className="filter-btn">{filter} ▾</button>
       <ul className="dropdown-menu">
-        <li onClick={() => setFilter("All")}>All</li>
-        <li onClick={() => setFilter("active")}>Incomplete</li>
-        <li onClick={() => setFilter("completed")}>Complete</li>
+        <li onClick={() => setFilter("ALL")}>ALL</li>
+        <li onClick={() => setFilter("INCOMPLETE")}>INCOMPLETE</li>
+        <li onClick={() => setFilter("COMPLETE")}>COMPLETE</li>
       </ul>
     </div>
   );
